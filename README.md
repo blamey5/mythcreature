@@ -51,18 +51,5 @@ clear_btn.grid(row=4, column=2, pady=10)
 exit_btn = ttk.Button(root,text="Exit", command=exit)
 exit_btn.grid(row=5, column=2, pady=10)
 
-def temperature_convert(temp, unit, unit1):
-if unit == "Celcius" and unit1 == "Fahrenheit":
-conv_ans = temp * 1.8 + 32
-return conv_ans
-elif unit == "Fahrenheit" and unit1 == "Celcius":
-conv_ans = (temp - 32) / 1.8
-return conv_ans
-elif unit == "Celcius" and unit1 == "Celcius":
-return temp
-elif unit == "Fahrenheit" and unit1 == "Fahrenheit":
-return temp
-else:
-pass
 
 root.mainloop()
