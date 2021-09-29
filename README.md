@@ -1,6 +1,3 @@
-# mythcreature
-GUI to generate a classic mythical creature "sidekick" for user
-
 import tkinter as tk
 import tkinter.ttk as ttk
 import tkinter.messagebox as messagebox
